@@ -23,18 +23,26 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  counter = 0
   max_value = 0
-  while array[counter] do
-    if array[counter] > max_value
-      max_value = array[counter]
-    else
-      counter += 1
+  array.length.times { |index|
+    if array[index] > max_value
+      max_value = array[index]
     end
-  end
+  }
   return max_value
 
-
+  # Solution 2
+  # counter = 0
+  # max_value = 0
+  # while array[counter] do
+  #   if array[counter] > max_value
+  #     max_value = array[counter]
+  #   else
+  #     counter += 1
+  #   end
+  # end
+  # return max_value
+  
   # Solution 1
   # array1 = array.sort
   # array1[-1]
