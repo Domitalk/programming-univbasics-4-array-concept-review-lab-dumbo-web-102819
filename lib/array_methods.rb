@@ -31,8 +31,8 @@ def find_max_value(array)
     else
       counter += 1
     end
-  return max_value
   end
+  return max_value
 
 
   # Solution 1
