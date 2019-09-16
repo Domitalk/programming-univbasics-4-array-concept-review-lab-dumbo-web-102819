@@ -56,7 +56,7 @@ def find_min_value(array)
     end
   }
   return min_value
-  
+
   # Solution 2
   # counter = 0
   # min_value = array[0]
