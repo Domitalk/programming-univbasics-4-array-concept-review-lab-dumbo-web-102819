@@ -42,7 +42,7 @@ def find_max_value(array)
   #   end
   # end
   # return max_value
-  
+
   # Solution 1
   # array1 = array.sort
   # array1[-1]
